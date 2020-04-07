@@ -1,94 +1,28 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# How long has this been going on?
 
----
+Since coronavirus-related disruptions have interrupted all aspects of every day life, it’s been hard to keep track of time. 
+This app counts the days that have elapsed from certain events to today. It uses the svelte framework and the [World Time API](https://worldtimeapi.org/) 
+to get the current time (as this is a Minnesota-focused project, all times are for the Central U.S. time zone).
 
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
+## Installing
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd minnpost-how-long
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+## Run locally for development
 
 ```bash
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:5000](http://localhost:5000).
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
+## Build
 ```bash
 npm run build
 ```
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
-
-
-## Single-page app mode
-
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
-
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
-
-```js
-"start": "sirv public --single"
-```
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-now deploy --name my-project
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
-# minnpost-how-long
+Then copy the files in the `/public/build/` folders to the relevant S3 or directory or other hosting solution.
