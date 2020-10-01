@@ -64,6 +64,33 @@
 
 <h1>How long has it been since…</h1>
 
+<h4>…the number of deaths from COVID-19 in Minnesota passed 2,000: </h4>
+
+<div class="dayssince">{calculateTimeDelta(today, new Date("2020-09-26T00:00:00.00000-05:00"))}</div>
+
+<div class="description">On September 26, 2020, the Minnesota Department of Health <a href="https://www.minnpost.com/health/2020/09/the-daily-coronavirus-update-4-more-deaths-1075-new-cases-in-minnesota/">announced that a total of 2,004 Minnesotans had died of COVID-19 over the course of the pandemic.</a></div>
+
+
+<h4>…the number of deaths from COVID-19 in Minnesota passed 1,000: </h4>
+
+<div class="dayssince">{calculateTimeDelta(today, new Date("2020-05-30T00:00:00.00000-05:00"))}</div>
+
+<div class="description">On May 30, 2020, the Minnesota Department of Health <a href="https://www.minnpost.com/health/2020/05/the-daily-coronavirus-update-30-more-die-of-covid-19-as-minnesotas-death-toll-tops-1000/">announced that a total of 1,026 Minnesotans had died of COVID-19 over the course of the pandemic.</a></div>
+
+
+<h4>…the number of confirmed COVID-19 cases in Minnesota passed 10,000: </h4>
+
+<div class="dayssince">{calculateTimeDelta(today, new Date("2020-05-08T00:00:00.00000-05:00"))}</div>
+
+<div class="description">On May 8, 2020, the Minnesota Department of Health <a href="https://www.minnpost.com/health/2020/05/the-daily-coronavirus-update-minnesota-surpasses-10000-confirmed-cases-state-bans-large-in-person-graduation-ceremonies/">announced there were a total of 10,088 confirmed cases of COVID-19 in Minnesota.</a></div>
+
+
+<h4>…the number of confirmed COVID-19 cases in Minnesota passed 1,000: </h4>
+
+<div class="dayssince">{calculateTimeDelta(today, new Date("2020-04-07T00:00:00.00000-05:00"))}</div>
+
+<div class="description">The total number of confirmed COVID-19 cases on <a href="https://www.minnpost.com/health/2020/04/the-daily-coronavirus-update-minnesota-surpasses-1000-confirmed-cases-walz-expected-to-extend-stay-at-home-order/">April 7, 2020 was 1,069</a>. Note that, due to lack of testing capabilities, the actual number of cases in the state is assumed to be much higher.</div>
+
 <h4>…Minnesota’s tenth death from COVID-19: </h4>
 
 <div class="dayssince">{calculateTimeDelta(today, new Date("2020-03-30T00:00:00.00000-05:00"))}</div>
@@ -111,7 +138,7 @@
 
 <div class="dayssince">{calculateTimeDelta(today, new Date("2020-01-22T00:00:00.00000-05:00"))}</div>
 
-<div class="description">The CDC confirmed the <a href="https://www.smithsonianmag.com/smart-news/wuhan-coronavirus-180974027/">U.S.’s first case of COVID-19, a man in Washington, on January 22</a>.</div>
+<div class="description">The CDC confirmed the <a href="https://www.smithsonianmag.com/smart-news/wuhan-coronavirus-180974027/">U.S.’s first case of COVID-19, a man in Washington, on&nbsp;January&nbsp;22</a>.</div>
 
 {/if}
 
