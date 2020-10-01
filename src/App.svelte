@@ -64,6 +64,13 @@
 
 <h1>How long has it been since…</h1>
 
+<h4>…the number of confirmed COVID-19 cases in Minnesota passed 100,000: </h4>
+
+<div class="dayssince">{calculateTimeDelta(today, new Date("2020-10-01T00:00:00.00000-05:00"))}</div>
+
+<div class="description">On October 1, 2020, <a href="https://www.minnpost.com/health/2020/10/the-daily-coronavirus-update-minnesota-surpasses-100000-total-covid-19-cases/">the Minnesota Department of Health said there had been a total of 100,200 confirmed cases of COVID-19</a> in Minnesota since the start of the pandemic.</div>
+
+
 <h4>…the number of deaths from COVID-19 in Minnesota passed 2,000: </h4>
 
 <div class="dayssince">{calculateTimeDelta(today, new Date("2020-09-26T00:00:00.00000-05:00"))}</div>
