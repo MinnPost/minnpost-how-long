@@ -64,6 +64,20 @@
 
 <h1>How long has it been since…</h1>
 
+<h4>…Minnesota surpassed 10,000 deaths from COVID-19: </h4>
+
+<div class="dayssince">{calculateTimeDelta(today, new Date("2021-12-15T00:00:00.00000-05:00"))}</div>
+
+<div class="description">On December 15, 2021, the Minnesota Department of Health announced that 54 more Minnesotans had died of COVID-19, <a href="https://minnesota.cbslocal.com/2021/12/15/covid-in-minnesota-us-surpasses-800k-deaths-mdh-reports-2231-new-cases/">bringing the total for the entire pandemic to 10,018.</a></div>
+
+
+<h4>…Minnesota surpassed 5,000 deaths from COVID-19: </h4>
+
+<div class="dayssince">{calculateTimeDelta(today, new Date("2020-12-24T00:00:00.00000-05:00"))}</div>
+
+<div class="description">On December 24, 2020 — Christmas Eve — the Minnesota Department of Health announced that 79 more Minnesotans had died of COVID-19, <a href="https://www.minnpost.com/health/2020/12/the-daily-coronavirus-update-79-deaths-bring-total-to-more-than-5000-in-minnesota/">bringing the total for the entire pandemic to 5,050.</a></div>
+
+
 <h4>…the number of confirmed COVID-19 cases in Minnesota passed 100,000: </h4>
 
 <div class="dayssince">{calculateTimeDelta(today, new Date("2020-10-01T00:00:00.00000-05:00"))}</div>
